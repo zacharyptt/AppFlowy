@@ -9,6 +9,7 @@
   "title": "標題",
   "youCanAlso": "你也可以",
   "and": "和",
+  "failedToOpenUrl": "打開 url:{}失敗",
   "blockActions": {
     "addBelowTooltip": "點選以在下方新增",
     "addAboveCmd": "Alt+點選",
@@ -41,6 +42,7 @@
     "emailHint": "電子郵件",
     "passwordHint": "密碼",
     "dontHaveAnAccount": "還沒有帳號？",
+    "createAccount": "創建帳號",
     "repeatPasswordEmptyError": "確認密碼不能為空",
     "unmatchedPasswordError": "密碼重複輸入不一致",
     "syncPromptMessage": "同步資料可能需要一些時間。請不要關閉此頁面",
@@ -72,6 +74,7 @@
     "chooseWorkspace": "選擇你的工作區",
     "create": "建立工作區",
     "reset": "重設工作區",
+    "renameWorkspace": "重新命名工作區",
     "resetWorkspacePrompt": "重設工作區將刪除其中所有頁面和資料。你確定要重設工作區嗎？或者，你可以聯絡支援團隊來恢復工作區。",
     "hint": "工作區",
     "notFoundError": "找不到工作區",
@@ -86,6 +89,7 @@
     "deleteWorkspaceHintText": "您確定要刪除工作區嗎？此操作無法撤銷",
     "createSuccess": "成功創建工作區",
     "createFailed": "無法創建工作區",
+    "createLimitExceeded": "您已達到帳戶允許的工作區上限。如果您需要額外的工作區以繼續工作，請在 Github 上提交請求。",
     "deleteSuccess": "工作區刪除成功",
     "deleteFailed": "工作區刪除失敗",
     "openSuccess": "成功開啟工作區",
@@ -114,7 +118,11 @@
     "large": "大",
     "fontSize": "字型大小",
     "import": "匯入",
-    "moreOptions": "更多選項"
+    "moreOptions": "更多選項",
+    "wordCount": "字數: {}",
+    "charCount": "字符數: {}",
+    "createdAt": "建立於: {}",
+    "deleteView": "刪除"
   },
   "importPanel": {
     "textAndMarkdown": "文字 & Markdown",
@@ -132,7 +140,8 @@
     "openNewTab": "在新分頁中開啟",
     "moveTo": "移動到",
     "addToFavorites": "加入最愛",
-    "copyLink": "複製連結"
+    "copyLink": "複製連結",
+    "changeIcon": "更改圖示"
   },
   "blankPageTitle": "空白頁面",
   "newPageText": "新增頁面",
